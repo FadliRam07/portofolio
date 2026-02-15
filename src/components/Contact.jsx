@@ -55,7 +55,7 @@ function Contact() {
     const formResponseUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSePJzUwdP8zeKIJOz9XHDwQKmlAvkD44ICuS6DY01bSQQYa1A/formResponse';
 
     // Submit ke Google Form
-    const response = await fetch(formResponseUrl, {
+    await fetch(formResponseUrl, {
       method: 'POST',
       mode: 'no-cors',
       credentials: 'omit',
