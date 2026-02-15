@@ -2042,3 +2042,251 @@
     font-size: 0.9rem;
   }
 }
+
+/* ===== FINAL MOBILE FIXES - JANGAN HAPUS INI ===== */
+@media (max-width: 768px) {
+  /* Prevent horizontal scroll */
+  body, html {
+    overflow-x: hidden !important;
+    width: 100% !important;
+  }
+
+  /* Container fixes */
+  .app, .section, .hero {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Navbar fixes */
+  .navbar {
+    padding: 0.8rem 1rem !important;
+  }
+  
+  .navbar-brand {
+    font-size: 1.25rem !important;
+    max-width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .navbar-controls {
+    gap: 0.7rem !important;
+    margin-left: auto !important;
+  }
+  
+  .search-btn, .theme-toggle, .hamburger-btn {
+    font-size: 1.25rem !important;
+    padding: 0.5rem !important;
+    min-width: 40px;
+    min-height: 40px;
+  }
+
+  /* Hero section fixes */
+  .hero-content {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+  
+  .hero-text {
+    order: 2 !important;
+    text-align: center !important;
+  }
+  
+  .hero-image {
+    order: 1 !important;
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.1rem !important;
+    line-height: 1.2 !important;
+  }
+  
+  .hero-text h2 {
+    font-size: 1.25rem !important;
+  }
+  
+  .hero-text p {
+    font-size: 0.95rem !important;
+    line-height: 1.6 !important;
+  }
+  
+  .profile-container {
+    width: 230px !important;
+    height: 230px !important;
+    margin: 0 auto !important;
+    border-width: 4px !important;
+  }
+  
+  .cta-buttons {
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+  }
+  
+  .btn {
+    width: 100% !important;
+    justify-content: center !important;
+    padding: 0.75rem 1.5rem !important;
+    font-size: 0.95rem !important;
+  }
+
+  /* Section fixes */
+  .section-title h2 {
+    font-size: 1.9rem !important;
+  }
+  
+  .section-title p {
+    font-size: 0.95rem !important;
+  }
+
+  /* Grid fixes */
+  .about-content,
+  .contact-container,
+  .skills-grid,
+  .projects-grid,
+  .education-grid {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .about-stats {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+  
+  .project-image-wrapper {
+    height: 190px !important;
+  }
+  
+  .project-content h3 {
+    font-size: 1.25rem !important;
+  }
+
+  /* Timeline fixes */
+  .timeline::before {
+    left: 20px !important;
+  }
+  
+  .timeline-item {
+    padding-left: 55px !important;
+    padding-right: 0 !important;
+  }
+  
+  .timeline-content::before {
+    left: -28px !important;
+  }
+
+  /* Contact fixes */
+  .contact-item {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.5rem !important;
+  }
+  
+  .contact-icon {
+    min-width: auto !important;
+    font-size: 1.3rem !important;
+  }
+
+  /* Footer fixes */
+  .footer-links {
+    flex-direction: column !important;
+    gap: 0.6rem !important;
+  }
+  
+  .footer-social {
+    gap: 1rem !important;
+    flex-wrap: wrap !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Extra small mobile fixes */
+  .navbar {
+    padding: 0.7rem 0.8rem !important;
+  }
+  
+  .navbar-brand {
+    font-size: 1.15rem !important;
+  }
+  
+  .search-btn, .theme-toggle, .hamburger-btn {
+    font-size: 1.2rem !important;
+    padding: 0.45rem !important;
+  }
+  
+  .hero-text h1 {
+    font-size: 1.85rem !important;
+  }
+  
+  .hero-text h2 {
+    font-size: 1.15rem !important;
+  }
+  
+  .hero-text p {
+    font-size: 0.9rem !important;
+  }
+  
+  .profile-container {
+    width: 200px !important;
+    height: 200px !important;
+    border-width: 3px !important;
+  }
+  
+  .section-title h2 {
+    font-size: 1.7rem !important;
+  }
+  
+  .stat-number {
+    font-size: 2.1rem !important;
+  }
+  
+  .project-image-wrapper {
+    height: 170px !important;
+  }
+  
+  .project-content h3 {
+    font-size: 1.15rem !important;
+  }
+  
+  .timeline-item {
+    padding-left: 50px !important;
+  }
+  
+  .timeline-content::before {
+    left: -25px !important;
+  }
+  
+  .btn {
+    padding: 0.7rem 1.3rem !important;
+    font-size: 0.9rem !important;
+  }
+  
+  .footer-bottom {
+    font-size: 0.85rem !important;
+    line-height: 1.4 !important;
+  }
+}
+
+/* Prevent image overflow on mobile */
+@media (max-width: 768px) {
+  img, .profile-image, .project-image {
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+  }
+  
+  .project-card, .education-card, .skill-category {
+    margin-bottom: 1rem !important;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    font-size: 0.95rem !important;
+    padding: 0.75rem !important;
+  }
+  
+  textarea {
+    min-height: 120px !important;
+  }
+}
