@@ -47,6 +47,15 @@ function Projects() {
       image: '/images/projects/p5.png',
       github: 'https://drive.google.com/drive/folders/1wNdcMo3J70uqn3XThlPHUboYjlUlFGfv?usp=drive_link',
       demo: 'https://drive.google.com/file/d/1TV2Z_kHQrDclHeRileWJ0UrLO2fVQgiG/view?usp=drive_link'
+    },
+    {
+      id: 6,
+      title: 'Website Fanbase Real Madrid',
+      description: 'Website diperuntukkan Fans Real Madrid untuk melihat para pemain Real Madrid dari tahun 2017 - 2026, yang memiliki banyak sejarah bagi sepak bola.',
+      tech: ['React JS', 'Firebase', 'CSS'],
+      image: '/images/projects/p3.webp',
+      github: 'https://github.com/FadliRam07/web-madrid',
+      demo: 'https://web-madrid-fanbase.vercel.app/'
     }
   ];
 
