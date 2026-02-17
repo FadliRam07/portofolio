@@ -22,7 +22,7 @@ function Hero() {
             </a>
           </div>
           <div className="social-icons">
-            <a href="https://linkedin.com/in/FadliRamadhanAlfarizki" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="https://linkedin.com/in/fadli-ramadhan07" target="_blank" rel="noopener noreferrer" className="social-icon">
               <FaLinkedin />
             </a>
             <a href="https://github.com/FadliRam07" target="_blank" rel="noopener noreferrer" className="social-icon">

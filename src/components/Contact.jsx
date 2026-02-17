@@ -123,7 +123,7 @@ function Contact() {
             <FaLinkedin className="contact-icon" />
             <div className="contact-text">
               <h3>LinkedIn</h3>
-              <p>linkedin.com/in/Fadli Ramadhan Alfarizki</p>
+              <p>linkedin.com/in/fadli-ramadhan07</p>
             </div>
           </div>
           
