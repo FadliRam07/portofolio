@@ -4,9 +4,9 @@ import { FaReact, FaNodeJs, FaDatabase, FaMobileAlt, FaTools } from 'react-icons
 function Skills() {
   const skills = {
     frontend: ['React', 'Next.js', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap'],
-    backend: ['Node.js', 'Express', 'Python', 'REST API', 'Firebase'],
-    database: ['MongoDB', 'MySQL', 'PHPMyAdmin', 'Firebase Firestore'],
-    tools: ['Git', 'GitHub', 'Docker', 'VS Code', 'Figma', 'Postman'],
+    backend: [ 'Python', 'Firebase'],
+    database: [ 'MySQL', 'PHPMyAdmin',],
+    tools: ['Git', 'GitHub', 'VS Code', 'Figma',],
     mobile: ['React Native', 'Flutter (Basic)', 'Android Studio', ],
     lainnya: ['Microsoft Excel', 'Canva', 'Microsoft Word', 'Editing Grafis']
   };
