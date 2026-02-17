@@ -131,7 +131,7 @@ function Contact() {
             <FaGithub className="contact-icon" />
             <div className="contact-text">
               <h3>GitHub</h3>
-              <p>github.com/fadliram07</p>
+              <p>github.com/FadliRam07</p>
             </div>
           </div>
         </div>
