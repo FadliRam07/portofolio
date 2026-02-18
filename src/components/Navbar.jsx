@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { 
   FaSun, FaMoon, FaBars, FaTimes, FaSearch, 
-  FaTimes as FaTimesIcon, FaUser, FaSignOutAlt, 
+  FaTimes as FaTimesIcon, FaSignOutAlt, 
   FaChevronDown, FaHome 
 } from 'react-icons/fa';
 
