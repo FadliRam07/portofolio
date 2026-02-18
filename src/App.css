@@ -3022,3 +3022,30 @@
   background: #2a2a4a;
   border-color: rgba(255, 255, 255, 0.1);
 }
+
+/* Untuk section home/hero */
+.hero,
+#home {
+  padding-top: 120px !important;
+  margin-top: 0 !important;
+}
+
+/* Atau untuk semua section */
+.section {
+  scroll-margin-top: 100px; /* Untuk smooth scroll yang baik */
+}
+
+/* Disable animasi berat di mobile */
+@media (prefers-reduced-motion: reduce) {
+  .hero-image {
+    animation: none;
+    transition: none;
+  }
+}
+
+/* Lebih halus di mobile */
+@media (max-width: 768px) {
+  .hero-image {
+    animation-duration: 4s; /* Lebih lambat */
+  }
+}

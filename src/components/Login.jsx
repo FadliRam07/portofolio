@@ -65,7 +65,7 @@ function Login() {
           <div className="login-logo">
             <div className="logo-initials">FR</div>
           </div>
-          <h1>Fadli Ramadhan</h1>
+          <h1>Portofolio Fadli</h1>
           <p>Silakan login untuk melihat portofolio lengkap</p>
         </div>
         
