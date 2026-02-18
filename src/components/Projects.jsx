@@ -16,7 +16,7 @@ function Projects() {
       id: 2,
       title: 'Real Madrid Official App',
       description: 'Aplikasi mobile Android untuk fans Real Madrid dengan fitur jadwal pertandingan, daftar pemain, sejarah klub, trofi, dan notifikasi push real-time.',
-      tech: ['Java', 'Android Studio', 'Firebase', 'REST API'],
+      tech: ['Java', 'Android Studio', 'Firebase'],
       image: '/images/projects/p3.webp',
       github: 'https://github.com/FadliRam07/Football_Soccer_academy',
       demo: 'https://drive.google.com/file/d/1Dx6hMt8OZ-91haK8saSyPSh_9hy_R_-G/view?usp=drive_link'
@@ -25,7 +25,7 @@ function Projects() {
       id: 3,
       title: 'Persebaya Surabaya Official App',
       description: 'Aplikasi mobile Android untuk fans Persebaya Surabaya dengan fitur jadwal pertandingan, daftar pemain, sejarah klub, trofi, dan notifikasi push real-time.',
-      tech: ['Java', 'Android Studio', 'Firebase', 'MVP Pattern'],
+      tech: ['Java', 'Android Studio','MVP Pattern'],
       image: '/images/projects/p4.png',
       github: 'https://github.com/FadliRam07/persebaya-official-app',
       demo: 'https://drive.google.com/file/d/1NXOFENv9BXE4134HWbNPZRxhD3if58SF/view?usp=drive_link'
