@@ -19,7 +19,7 @@ function Experience() {
     {
       id: 3,
       date: '2021 - 2024',
-      title: 'Sekolah menengah',
+      title: 'Sekolah  Menengah',
       company: 'SMP NEGERI 42 BANDUNG',
       description: 'Pembelajaran menengah yang berfokus pada dasar ilmu pendidikan seperti IPA, IPS, dan Olahraga'
     }

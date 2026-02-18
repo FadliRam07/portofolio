@@ -1,5 +1,4 @@
 import React from 'react';
-// ✅ Hapus FaTwitter dari import karena tidak dipakai
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 
 function Footer() {
@@ -24,12 +23,6 @@ function Footer() {
           <a href="https://instagram.com/fadrmdhn07" target="_blank" rel="noopener noreferrer" className="social-icon">
             <FaInstagram />
           </a>
-          {/*  Jika ingin tambah Twitter, uncomment baris bawah dan tambahkan FaTwitter di import */}
-          {/* 
-          <a href="https://twitter.com/akun-anda" target="_blank" rel="noopener noreferrer" className="social-icon">
-            <FaTwitter />
-          </a> 
-          */}
         </div>
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} Fadli Ramadhan. Semua hak dilindungi.</p>
