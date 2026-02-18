@@ -37,7 +37,7 @@ function About() {
               <div className="stat-label">Project Selesai</div>
             </div>
             <div className="stat-item">
-              <div className="stat-number">7+</div>
+              <div className="stat-number">5+</div>
               <div className="stat-label">Project Dijual</div>
             </div>
             <div className="stat-item">

@@ -190,7 +190,7 @@ function Contact() {
                 marginBottom: '1rem',
                 border: '1px solid #fecaca'
               }}>
-                <strong>❌ Error:</strong> {error}
+                <strong> Error:</strong> {error}
               </div>
             )}
             
@@ -203,7 +203,7 @@ function Contact() {
                 marginBottom: '1rem',
                 border: '1px solid #a7f3d0'
               }}>
-                <strong>✅ Sukses!</strong> Pesan Anda berhasil terkirim. Terima kasih!
+                <strong> Sukses!</strong> Pesan Anda berhasil terkirim. Terima kasih!
               </div>
             )}
             
