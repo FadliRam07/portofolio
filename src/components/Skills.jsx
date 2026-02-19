@@ -3,7 +3,7 @@ import { FaReact, FaNodeJs, FaDatabase, FaMobileAlt, FaTools } from 'react-icons
 
 function Skills() {
   const skills = {
-    frontend: ['React', 'Next.js', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap'],
+    frontend: ['React', 'Next.js', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap'],
     backend: [ 'Python', 'Firebase'],
     database: [ 'MySQL', 'PHPMyAdmin',],
     tools: ['Git', 'GitHub', 'VS Code', 'Figma',],

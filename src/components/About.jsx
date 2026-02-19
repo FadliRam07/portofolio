@@ -73,7 +73,7 @@ function About() {
             <FaCode size={30} />
             <div>
               <h3 style={{ fontSize: '1.3rem', marginBottom: '0.3rem' }}>Bahasa Pemrograman</h3>
-              <p style={{ opacity: 0.9 }}>JavaScript, TypeScript, Python, Java</p>
+              <p style={{ opacity: 0.9 }}>JavaScript, Python, Java</p>
             </div>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
